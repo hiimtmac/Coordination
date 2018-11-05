@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                    = "Coordination"
-    s.version                 = "0.0.1"
+    s.version                 = "0.0.2"
     s.summary                 = "Coordination helps & alerts"
 
     s.homepage                = "http://github.com/hiimtmac/Coordination"

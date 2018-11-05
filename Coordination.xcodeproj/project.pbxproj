@@ -36,7 +36,7 @@
 		D72E4EC621874CC400AB58C7 /* AlertPresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenting.swift; sourceTree = "<group>"; };
 		D72E4ECC2187685700AB58C7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D7FD4249218CF673002D83FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D7FD424A218CF673002D83FB /* Coordinaton.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Coordinaton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7FD424A218CF673002D83FB /* Coordination.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Coordination.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7FD424B218CF673002D83FB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 		D72E4E9E21874C3F00AB58C7 = {
 			isa = PBXGroup;
 			children = (
-				D7FD424A218CF673002D83FB /* Coordinaton.podspec */,
+				D7FD424A218CF673002D83FB /* Coordination.podspec */,
 				D7FD424B218CF673002D83FB /* LICENSE */,
 				D7FD4249218CF673002D83FB /* README.md */,
 				D72E4EAA21874C3F00AB58C7 /* Coordination */,

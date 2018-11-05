@@ -8,11 +8,11 @@
 
 import UIKit
 
-public protocol AppCoordinator: Coordinator {
+public protocol ApplicationCoordinator: Coordinator {
     func handleShortcut(_ shortcutitem: UIApplicationShortcutItem)
 }
 
-extension AppCoordinator {
+extension ApplicationCoordinator {
     public func handle(_ launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
             handleShortcut(shortcutItem)
