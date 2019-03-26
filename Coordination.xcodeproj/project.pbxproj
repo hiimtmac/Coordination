@@ -11,7 +11,6 @@
 		D72E4EB721874C3F00AB58C7 /* CoordinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EB621874C3F00AB58C7 /* CoordinationTests.swift */; };
 		D72E4EB921874C3F00AB58C7 /* Coordination.h in Headers */ = {isa = PBXBuildFile; fileRef = D72E4EAB21874C3F00AB58C7 /* Coordination.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D72E4EC321874C6200AB58C7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EC221874C6200AB58C7 /* Coordinator.swift */; };
-		D72E4EC721874CC400AB58C7 /* AlertPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EC621874CC400AB58C7 /* AlertPresenting.swift */; };
 		D72E4ECD2187685700AB58C7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E4ECC2187685700AB58C7 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		D72E4EB621874C3F00AB58C7 /* CoordinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationTests.swift; sourceTree = "<group>"; };
 		D72E4EB821874C3F00AB58C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72E4EC221874C6200AB58C7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		D72E4EC621874CC400AB58C7 /* AlertPresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenting.swift; sourceTree = "<group>"; };
 		D72E4ECC2187685700AB58C7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D7FD4249218CF673002D83FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D7FD424A218CF673002D83FB /* Coordination.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Coordination.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -86,7 +84,6 @@
 				D72E4EAB21874C3F00AB58C7 /* Coordination.h */,
 				D72E4EAC21874C3F00AB58C7 /* Info.plist */,
 				D7FD4248218CF57D002D83FB /* Coordinators */,
-				D72E4EC621874CC400AB58C7 /* AlertPresenting.swift */,
 			);
 			path = Coordination;
 			sourceTree = "<group>";
@@ -184,6 +181,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D72E4E9E21874C3F00AB58C7;
 			productRefGroup = D72E4EA921874C3F00AB58C7 /* Products */;
@@ -220,7 +218,6 @@
 			files = (
 				D72E4ECD2187685700AB58C7 /* AppCoordinator.swift in Sources */,
 				D72E4EC321874C6200AB58C7 /* Coordinator.swift in Sources */,
-				D72E4EC721874CC400AB58C7 /* AlertPresenting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +299,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -359,6 +357,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -387,7 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -413,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiimtmac.Coordination;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -432,7 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiimtmac.CoordinationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiimtmac.CoordinationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
